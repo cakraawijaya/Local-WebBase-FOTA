@@ -482,6 +482,10 @@ String main_page = R"rawliteral(
   
           $('#update-btn')
             .val('Update Berhasil');
+
+          setTimeout(function() {
+            window.location.href = 'http://192.168.1.6/';
+          }, 2000);
         }
   
         else {
