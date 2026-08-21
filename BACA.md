@@ -86,6 +86,57 @@ Sistem pemantauan, pengendalian, dan pengelolaan firmware IoT berbasis web — m
 
 <br><br>
 
+## Sorotan
+
+<table>
+<tr>
+<th width="840" colspan="2">Masuk Web Server</th>
+</tr>
+<tr>
+<td align="center"><img src="Assets/Documentation/Experiment/Login.jpg" alt="login"></td>
+<td align="center"><img src="Assets/Documentation/Experiment/Invalid Login.jpg" alt="invalid-login"></td>
+</tr>
+</table>
+<table>
+<tr>
+<th width="840">Dasbor Web Server</th>
+</tr>
+<tr>
+<td align="center"><img src="Assets/Documentation/Experiment/Dashboard.jpg" alt="dashboard"></td>
+</tr>
+</table>
+<table>
+<tr>
+<th width="840" colspan="4">Kontrol LED</th>
+</tr>
+<tr>
+<td align="center"><img src="Assets/Documentation/Experiment/Alert LED ON.jpg" alt="alert-led-on"></td>
+<td align="center"><img src="Assets/Documentation/Experiment/Device (LED ON).jpg" alt="led-on"></td>
+<td align="center"><img src="Assets/Documentation/Experiment/Alert LED OFF.jpg" alt="alert-led-off"></td>
+<td align="center"><img src="Assets/Documentation/Experiment/Device (LED OFF).jpg" alt="led-off"></td>
+</tr>
+</table>
+<table>
+<tr>
+<th width="420">Pemasangan Firmware Awal</th>
+<th width="420">FOTA</th>
+</tr>
+<tr>
+<td align="center"><img src="Assets/Documentation/Experiment/Initial Firmware Flashing.jpg" alt="initial-firmware-flashing"></td>
+<td align="center"><img src="Assets/Documentation/Experiment/FOTA.jpg" alt="fota"></td>
+</tr>
+</table>
+<table>
+<tr>
+<th width="840">Unduh CSV</th>
+</tr>
+<tr>
+<td align="center"><img src="Assets/Documentation/Experiment/Download CSV.jpg" alt="download-csv"></td>
+</tr>
+</table>
+
+<br><br>
+
 ## Apresiasi
 Jika karya ini bermanfaat bagi anda, maka dukunglah karya ini sebagai bentuk apresiasi kepada penulis dengan mengklik tombol ``` ⭐Bintang ``` di bagian atas repositori.
 
