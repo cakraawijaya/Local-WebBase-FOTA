@@ -20,7 +20,7 @@ Sistem pemantauan, pengendalian, dan pengelolaan firmware IoT berbasis web — m
 | Bahasa Pemrograman | C/C++ |
 | Pustaka Arduino | • WiFi (bawaan)<br>• DHT sensor library oleh Adafruit (Versi: 1.4.6)<br>• Arduino_ESP32_OTA oleh Arduino (Versi: 0.3.1)<br>• NTPClient oleh Fabrice Weinberg (Versi: 3.2.1)<br>• WiFiManager oleh tablatronix (Versi: 2.0.17)<br>• WiFiWebServer oleh Khoi Hoang (Versi: 1.10.1) |
 | Aktuator | • LED (x1)<br>• Relay elektromekanis 2-channel (x1) |
-| Sensor | DHT11: Suhu & Kelembaban Udara (x1) |
+| Sensor | DHT11: Suhu & Kelembapan Udara (x1) |
 | Komponen Lainnya| • Kabel USB Mikro - USB tipe A (x1)<br>• Papan ekspansi ESP32 (x1)<br>• Breadboard (x1)<br>• Adaptor DC 9V 1A (x1)<br>• Resistor 220 ohm (x1)<br>• Kabel jumper (1 set) |
 
 <br><br>
