@@ -52,20 +52,14 @@ Web-based IoT monitoring, control, and firmware management system — monitors t
 
 <table>
 <tr>
-<th width="840">Block Diagram</th>
-</tr>
-<tr>
-<td align="center"><img src="Assets/Documentation/Diagram/Block Diagram.jpg" alt="block-diagram"></td>
-</tr>
-</table>
-<table>
-<tr>
-<th width="420">Architecture</th>
-<th width="420">Pictorial Diagram</th>
+<th width="280">Architecture</th>
+<th width="280">Pictorial Diagram</th>
+<th width="280">Block Diagram</th>
 </tr>
 <tr>
 <td align="center"><img src="Assets/Documentation/Diagram/Architecture.jpg" alt="architecture"></td>
 <td align="center"><img src="Assets/Documentation/Diagram/Pictorial Diagram.jpg" alt="pictorial-diagram"></td>
+<td align="center"><img src="Assets/Documentation/Diagram/Block Diagram.jpg" alt="block-diagram"></td>
 </tr>
 </table>
 <table>
