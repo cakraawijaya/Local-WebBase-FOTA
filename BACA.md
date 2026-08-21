@@ -16,7 +16,7 @@ Sistem pemantauan, pengendalian, dan pengelolaan firmware IoT berbasis web — m
 | Editor Kode | Arduino IDE 1.8.19 (Versi Lama yang Stabil) |
 | Driver | CP210X USB Driver |
 | Protokol Komunikasi | Hypertext Transfer Protocol (HTTP) |
-| Arsitektur IoT | 4 Lapisan |
+| Arsitektur IoT | 3 Lapisan |
 | Bahasa Pemrograman | C/C++ |
 | Pustaka Arduino | • WiFi (bawaan)<br>• DHT sensor library oleh Adafruit (Versi: 1.4.6)<br>• Arduino_ESP32_OTA oleh Arduino (Versi: 0.3.1)<br>• NTPClient oleh Fabrice Weinberg (Versi: 3.2.1)<br>• WiFiManager oleh tablatronix (Versi: 2.0.17)<br>• WiFiWebServer oleh Khoi Hoang (Versi: 1.10.1) |
 | Aktuator | • LED (x1)<br>• Relay elektromekanis 2-channel (x1) |
