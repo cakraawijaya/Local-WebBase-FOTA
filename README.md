@@ -93,8 +93,8 @@ Web-based IoT monitoring, control, and firmware management system — monitors t
 <th width="840" colspan="2">Login Web Server</th>
 </tr>
 <tr>
-<td align="center"><img src="Assets/Documentation/Experiment/Login.jpg" alt="login"></td>
-<td align="center"><img src="Assets/Documentation/Experiment/Invalid Login.jpg" alt="invalid-login"></td>
+<td width="420" align="center"><img src="Assets/Documentation/Experiment/Login.jpg" alt="login"></td>
+<td width="420" align="center"><img src="Assets/Documentation/Experiment/Invalid Login.jpg" alt="invalid-login"></td>
 </tr>
 </table>
 <table>
@@ -110,10 +110,10 @@ Web-based IoT monitoring, control, and firmware management system — monitors t
 <th width="840" colspan="4">LED Control</th>
 </tr>
 <tr>
-<td align="center"><img src="Assets/Documentation/Experiment/Alert LED ON.jpg" alt="alert-led-on"></td>
-<td align="center"><img src="Assets/Documentation/Experiment/Device (LED ON).jpg" alt="led-on"></td>
-<td align="center"><img src="Assets/Documentation/Experiment/Alert LED OFF.jpg" alt="alert-led-off"></td>
-<td align="center"><img src="Assets/Documentation/Experiment/Device (LED OFF).jpg" alt="led-off"></td>
+<td width="210" align="center"><img src="Assets/Documentation/Experiment/Alert LED ON.jpg" alt="alert-led-on"></td>
+<td width="210" align="center"><img src="Assets/Documentation/Experiment/Device (LED ON).jpg" alt="led-on"></td>
+<td width="210" align="center"><img src="Assets/Documentation/Experiment/Alert LED OFF.jpg" alt="alert-led-off"></td>
+<td width="210" align="center"><img src="Assets/Documentation/Experiment/Device (LED OFF).jpg" alt="led-off"></td>
 </tr>
 </table>
 <table>
