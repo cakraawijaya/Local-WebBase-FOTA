@@ -19,7 +19,7 @@ Web-based IoT monitoring, control, and firmware management system — monitors t
 | IoT Architecture | 3 Layer |
 | Programming Language | C/C++ |
 | Arduino Library | • WiFi (default)<br>• DHT sensor library by Adafruit (Version: 1.4.6)<br>• Arduino_ESP32_OTA by Arduino (Version: 0.3.1)<br>• NTPClient by Fabrice Weinberg (Version: 3.2.1)<br>• WiFiManager by tablatronix (Version: 2.0.17)<br>• WiFiWebServer by Khoi Hoang (Version: 1.10.1) |
-| Actuator | • LED (x1)<br>• Electromechanical relay 2-channel (x1) |
+| Actuators | • LED (x1)<br>• Electromechanical relay 2-channel (x1) |
 | Sensor | DHT11: Air Temperature & Humidity (x1) |
 | Other Components | • Micro USB cable - USB type A (x1)<br>• ESP32 expansion board (x1)<br>• Breadboard (x1)<br>• Adaptor DC 9V 1A (x1)<br>• Resistor 220 ohm (x1)<br>• Jumper cable (1 set) |
 
@@ -52,19 +52,19 @@ Web-based IoT monitoring, control, and firmware management system — monitors t
 
 <table>
 <tr>
-<th width="840">Architecture</th>
+<th width="840">Block Diagram</th>
 </tr>
 <tr>
-<td><img src="Assets/Documentation/Diagram/Architecture.jpg" alt="architecture"></td>
+<td><img src="Assets/Documentation/Diagram/Block Diagram.jpg" alt="block-diagram"></td>
 </tr>
 </table>
 <table>
 <tr>
-<th width="420">Block Diagram</th>
+<th width="420">Architecture</th>
 <th width="420">Pictorial Diagram</th>
 </tr>
 <tr>
-<td><img src="Assets/Documentation/Diagram/Block Diagram.jpg" alt="block-diagram"></td>
+<td><img src="Assets/Documentation/Diagram/Architecture.jpg" alt="architecture"></td>
 <td><img src="Assets/Documentation/Diagram/Pictorial Diagram.jpg" alt="pictorial-diagram"></td>
 </tr>
 </table>
