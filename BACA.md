@@ -52,20 +52,14 @@ Sistem pemantauan, pengendalian, dan pengelolaan firmware IoT berbasis web — m
 
 <table>
 <tr>
-<th width="840">Diagram Blok</th>
-</tr>
-<tr>
-<td align="center"><img src="Assets/Documentation/Diagram/Block Diagram.jpg" alt="block-diagram"></td>
-</tr>
-</table>
-<table>
-<tr>
-<th width="420">Arsitektur</th>
-<th width="420">Diagram Ilustrasi</th>
+<th width="280">Arsitektur</th>
+<th width="280">Diagram Ilustrasi</th>
+<th width="280">Diagram Blok</th>
 </tr>
 <tr>
 <td align="center"><img src="Assets/Documentation/Diagram/Architecture.jpg" alt="architecture"></td>
 <td align="center"><img src="Assets/Documentation/Diagram/Pictorial Diagram.jpg" alt="pictorial-diagram"></td>
+<td align="center"><img src="Assets/Documentation/Diagram/Block Diagram.jpg" alt="block-diagram"></td>
 </tr>
 </table>
 <table>
