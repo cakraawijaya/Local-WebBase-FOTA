@@ -484,7 +484,7 @@ String main_page = R"rawliteral(
             .val('Update Berhasil');
 
           setTimeout(function() {
-            window.location.href = 'http://192.168.1.6/';
+            window.location.href = '/';
           }, 2000);
         }
   
