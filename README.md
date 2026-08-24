@@ -90,11 +90,13 @@ Web-based IoT monitoring, control, and firmware management system — monitors t
 
 <table>
 <tr>
-<th width="840" colspan="2">Login Web Server</th>
+<th width="840" colspan="4">Login Web Server</th>
 </tr>
 <tr>
-<td width="420" align="center"><img src="Assets/Documentation/Experiment/Login.jpg" alt="login"></td>
-<td width="420" align="center"><img src="Assets/Documentation/Experiment/Invalid Login.jpg" alt="invalid-login"></td>
+<td width="210" align="center"><img src="Assets/Documentation/Experiment/Login (Initial Firmware).jpg" alt="login-firmware-init"></td>
+<td width="210" align="center"><img src="Assets/Documentation/Experiment/Invalid Login (Initial Firmware).jpg" alt="invalid-login-firmware-init"></td>
+<td width="210" align="center"><img src="Assets/Documentation/Experiment/Login (Controlling-Monitoring Device).jpg" alt="login-controlling-monitoring-device"></td>
+<td width="210" align="center"><img src="Assets/Documentation/Experiment/Invalid Login (Controlling-Monitoring Device).jpg" alt="invalid-login-controlling-monitoring-device"></td>
 </tr>
 </table>
 <table>
