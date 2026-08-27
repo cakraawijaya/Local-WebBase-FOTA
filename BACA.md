@@ -104,7 +104,7 @@ Sistem pemantauan, pengendalian, dan pengelolaan firmware IoT berbasis web — m
       </th></tr>
       <tr><td width="810">
          
-      • Cara: klik ``` Tools ``` -> ``` Board ``` -> ``` Boards Manager ``` -> Instal ``` esp32 ```.
+      • Klik ``` Tools ``` -> ``` Board ``` -> ``` Boards Manager ``` -> Instal ``` esp32 ```.
 
       • Kemudian pilih papan dengan mengklik: ``` Tools ``` -> ``` Board ``` -> ``` ESP32 Arduino ``` -> ``` DOIT ESP32 DEVKIT V1 ```.
 
