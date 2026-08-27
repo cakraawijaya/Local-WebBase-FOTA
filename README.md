@@ -73,6 +73,175 @@ Web-based IoT monitoring, control, and firmware management system — monitors t
 
 <br><br>
 
+## Arduino IDE Setup for Firmware Initialization
+1. Open the ``` Arduino IDE ``` first, then open the project by clicking ``` File ``` -> ``` Open ``` :
+
+   <table><tr><td width="810">
+      
+      ``` Config_OTA.ino ```
+
+   </td></tr></table><br>
+   
+2. Fill in the ``` Additional Board Manager URLs ``` in Arduino IDE
+
+   <table><tr><td width="810">
+         
+      Click ``` File ``` -> ``` Preferences ``` -> enter the ``` Boards Manager Url ``` by copying the following link :
+      
+      ```
+      https://dl.espressif.com/dl/package_esp32_index.json
+      ```
+
+   </td></tr></table><br>
+   
+3. ``` Board Setup ``` in Arduino IDE
+
+   <table>
+      <tr><th width="810">
+
+      How to setup the ``` DOIT ESP32 DEVKIT V1 ``` board
+            
+      </th></tr>
+      <tr><td width="810">
+         
+      • Click ``` Tools ``` -> ``` Board ``` -> ``` Boards Manager ``` -> Install ``` esp32 ```.
+   
+      • Then selecting a board by clicking: ``` Tools ``` -> ``` Board ``` -> ``` ESP32 Arduino ``` -> ``` DOIT ESP32 DEVKIT V1 ```.
+
+      </td></tr>
+   </table><br>
+   
+4. ``` Change the Board Speed ``` in Arduino IDE
+
+   <table><tr><td width="810">
+         
+      Click ``` Tools ``` -> ``` Upload Speed ``` -> ``` 115200 ```
+
+   </td></tr></table><br>
+   
+5. ``` Install Library ``` in Arduino IDE
+
+   <table><tr><td width="810">
+         
+      Download all the library zip files. Then paste it in the: ``` C:\Users\Computer_Username\Documents\Arduino\libraries ```
+
+   </td></tr></table><br>
+
+6. ``` Port Setup ``` in Arduino IDE
+
+   <table><tr><td width="810">
+         
+      Click ``` Port ``` -> Choose according to your device port ``` (you can see in device manager) ```
+
+   </td></tr></table><br>
+
+7. Change the ``` WiFi Name ```, ``` WiFi Password ```, and so on according to what you are currently using.<br><br>
+
+8. Before uploading the program please click: ``` Verify ```.<br><br>
+
+9. If there is no error in the program code, then please click: ``` Upload ```.<br><br>
+    
+10. Some things you need to do when using the ``` ESP32 board ``` :
+
+    <table><tr><td width="810">
+       
+       • If ``` ESP32 board ``` cannot process ``` Source Code ``` totally -> Press ``` EN (RST) ``` button -> ``` Restart ```.
+
+       • If ```ESP32 board ``` cannot process ``` Source Code ``` automatically then :<br>
+
+      - When information: ``` Uploading... ``` has appeared -> immediately press and hold the ``` BOOT ``` button.<br>
+
+      - When information: ``` Writing at .... (%) ``` has appeared -> release the ``` BOOT ``` button.
+
+      • If message: ``` Done Uploading ``` has appeared -> ``` The previously entered program can already be operated ```.
+
+      • Do not press the ``` BOOT ``` and ``` EN ``` buttons at the same time as this may switch to ``` Upload Firmware ``` mode.
+
+    </td></tr></table><br>
+
+11. If there is still a problem when uploading the program, then try checking the ``` driver ``` / ``` port ``` / ``` others ``` section.
+
+<br><br>
+
+## Arduino IDE Setup to Binary Compilation
+1. Open the ``` Arduino IDE ``` first, then open the project by clicking ``` File ``` -> ``` Open ``` :
+
+   <table><tr><td width="810">
+      
+      • ``` LED_Blink_OTA.ino ```
+
+      • ``` Monitoring_Controlling_Device_OTA.ino ```
+
+   </td></tr></table><br>
+   
+2. Fill in the ``` Additional Board Manager URLs ``` in Arduino IDE
+
+   <table><tr><td width="810">
+         
+      Click ``` File ``` -> ``` Preferences ``` -> enter the ``` Boards Manager Url ``` by copying the following link :
+      
+      ```
+      https://dl.espressif.com/dl/package_esp32_index.json
+      ```
+
+   </td></tr></table><br>
+   
+3. ``` Board Setup ``` in Arduino IDE
+
+   <table>
+      <tr><th width="810">
+
+      How to setup the ``` DOIT ESP32 DEVKIT V1 ``` board
+            
+      </th></tr>
+      <tr><td width="810">
+         
+      • Click ``` Tools ``` -> ``` Board ``` -> ``` Boards Manager ``` -> Install ``` esp32 ```.
+   
+      • Then selecting a board by clicking: ``` Tools ``` -> ``` Board ``` -> ``` ESP32 Arduino ``` -> ``` DOIT ESP32 DEVKIT V1 ```.
+
+      </td></tr>
+   </table><br>
+   
+4. ``` Install Library ``` in Arduino IDE
+
+   <table><tr><td width="810">
+         
+      Download all the library zip files. Then paste it in the: ``` C:\Users\Computer_Username\Documents\Arduino\libraries ```
+
+   </td></tr></table><br>
+
+5. Change the ``` WiFi Name ```, ``` WiFi Password ```, and so on according to what you are currently using.<br><br>
+
+6. Next, select ``` Sketch ``` -> ``` Export Compiled Binary ```.<br><br>
+
+7. Wait until the process is complete, the resulting binary file (.bin) is then ready to be used for the OTA process.
+
+<br><br>
+
+## Over-The-Air (FOTA) Firmware Update Setup
+1. Please log in first via the ``` Local Web Server ```.
+
+   <table><tr><td width="810">
+      
+      • Username: ``` admin ```
+
+      • Password: ``` admin ```
+         
+   </td></tr></table><br>
+   
+2. Upload the binary files (.bin) one at a time to identify the differences between each firmware update version.
+
+   <table><tr><td width="810">
+
+      • ``` LED_Blink_OTA.bin ```
+
+      • ``` Monitoring_Controlling_Device_OTA.bin ```
+         
+   </td></tr></table>
+
+<br><br>
+
 ## Get Started
 1. Download and extract this repository.<br><br>
     
@@ -136,6 +305,9 @@ Web-based IoT monitoring, control, and firmware management system — monitors t
 <td align="center"><img src="Assets/Documentation/Experiment/Download CSV.jpg" alt="download-csv"></td>
 </tr>
 </table>
+
+<br>
+<strong>More information:</strong> <a href="https://github.com/cakraawijaya/Local-WebBase-FOTA/blob/master/Assets/Documentation/Report/Portofolio%20Pelatihan%20Sertifikasi%20BNSP%20IIoT%20-%20Devan%20Cakra%20Mudra%20Wijaya-36-48.pdf"><u>Click Here</u></a>
 
 <br><br>
 
