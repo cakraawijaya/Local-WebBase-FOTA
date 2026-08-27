@@ -73,6 +73,158 @@ Sistem pemantauan, pengendalian, dan pengelolaan firmware IoT berbasis web — m
 
 <br><br>
 
+## Pengaturan Arduino IDE untuk Firmware Inisialisasi
+1. Buka ``` Arduino IDE ``` terlebih dahulu, kemudian buka proyek dengan cara klik ``` File ``` -> ``` Open ``` : 
+
+   <table><tr><td width="810">
+      
+      ``` Config_OTA.ino ```
+         
+   </td></tr></table><br>
+   
+2. Isi ``` Url Pengelola Papan Tambahan ``` di Arduino IDE
+
+   <table><tr><td width="810">
+
+      Klik ``` File ``` -> ``` Preferences ``` -> masukkan ``` Boards Manager Url ``` dengan menyalin tautan berikut :
+      
+      ```
+      https://dl.espressif.com/dl/package_esp32_index.json
+      ```
+         
+   </td></tr></table><br>
+   
+3. ``` Pengaturan Board ``` di Arduino IDE
+
+   <table>
+      <tr><th width="810">
+
+      Cara mengatur board ``` DOIT ESP32 DEVKIT V1 ```
+            
+      </th></tr>
+      <tr><td width="810">
+         
+      • Cara: klik ``` Tools ``` -> ``` Board ``` -> ``` Boards Manager ``` -> Instal ``` esp32 ```.
+
+      • Kemudian pilih papan dengan mengklik: ``` Tools ``` -> ``` Board ``` -> ``` ESP32 Arduino ``` -> ``` DOIT ESP32 DEVKIT V1 ```.
+
+      </td></tr>
+   </table><br>
+   
+4. ``` Ubah Kecepatan Papan ``` di Arduino IDE
+
+   <table><tr><td width="810">
+
+      Klik ``` Tools ``` -> ``` Upload Speed ``` -> ``` 115200 ```
+         
+   </td></tr></table><br>
+   
+5. ``` Instal Pustaka ``` di Arduino IDE
+
+   <table><tr><td width="810">
+
+      Unduh semua file zip pustaka. Kemudian tempelkan di: ``` C:\Users\Computer_Username\Documents\Arduino\libraries ```
+         
+   </td></tr></table><br>
+
+6. ``` Pengaturan Port ``` di Arduino IDE
+
+   <table><tr><td width="810">
+
+      Klik ``` Port ``` -> Pilih sesuai dengan port perangkat anda ``` (anda dapat melihatnya di Device Manager) ```
+         
+   </td></tr></table><br>
+
+7. Ubah ``` Nama WiFi ```, ``` Kata Sandi WiFi ```, dan sebagainya sesuai dengan apa yang anda gunakan saat ini.<br><br>
+
+8. Sebelum mengunggah program, silakan klik: ``` Verify ```.<br><br>
+
+9. Jika tidak ada kesalahan dalam kode program, silakan klik: ``` Upload ```.<br><br>
+    
+10. Beberapa hal yang perlu anda lakukan saat menggunakan ``` board ESP32 ``` :
+
+    <table><tr><td width="810">
+       
+       • Jika ``` board ESP32 ``` tidak dapat memproses ``` Source Code ``` secara total -> Tekan tombol ``` EN (RST) ``` -> ``` Restart ```.
+
+       • Jika ``` board ESP32 ``` tidak dapat memproses ``` Source Code ``` secara otomatis maka :<br>
+
+      - Ketika informasi: ``` Uploading... ``` telah muncul -> segera tekan dan tahan tombol ``` BOOT ```.<br>
+
+      - Ketika informasi: ``` Writing at .... (%) ``` telah muncul -> lepaskan tombol ``` BOOT ```.
+
+       • Jika pesan: ``` Done Uploading ``` telah muncul -> ``` Program yang diisikan tadi sudah bisa dioperasikan ```.
+
+       • Jangan tekan tombol ``` BOOT ``` dan ``` EN ``` secara bersamaan karena hal ini bisa beralih ke mode ``` Unggah Firmware ```.
+
+    </td></tr></table><br>
+
+11. Jika masih ada masalah saat unggah program, maka coba periksa pada bagian ``` driver ``` / ``` port ``` / ``` yang lainnya ```.
+
+<br><br>
+
+## Pengaturan Arduino IDE untuk Kompilasi Binary
+1. Buka ``` Arduino IDE ``` terlebih dahulu, kemudian buka proyek dengan cara klik ``` File ``` -> ``` Open ``` : 
+
+   <table><tr><td width="810">
+      
+      ``` LED_Blink_OTA.ino ``` dan ``` Monitoring_Controlling_Device_OTA.ino ```
+         
+   </td></tr></table><br>
+   
+2. Isi ``` Url Pengelola Papan Tambahan ``` di Arduino IDE
+
+   <table><tr><td width="810">
+
+      Klik ``` File ``` -> ``` Preferences ``` -> masukkan ``` Boards Manager Url ``` dengan menyalin tautan berikut :
+      
+      ```
+      https://dl.espressif.com/dl/package_esp32_index.json
+      ```
+         
+   </td></tr></table><br>
+   
+3. ``` Pengaturan Board ``` di Arduino IDE
+
+   <table>
+      <tr><th width="810">
+
+      Cara mengatur board ``` DOIT ESP32 DEVKIT V1 ```
+            
+      </th></tr>
+      <tr><td width="810">
+         
+      • Cara: klik ``` Tools ``` -> ``` Board ``` -> ``` Boards Manager ``` -> Instal ``` esp32 ```.
+
+      • Kemudian pilih papan dengan mengklik: ``` Tools ``` -> ``` Board ``` -> ``` ESP32 Arduino ``` -> ``` DOIT ESP32 DEVKIT V1 ```.
+
+      </td></tr>
+   </table><br>
+   
+4. ``` Instal Pustaka ``` di Arduino IDE
+
+   <table><tr><td width="810">
+
+      Unduh semua file zip pustaka. Kemudian tempelkan di: ``` C:\Users\Computer_Username\Documents\Arduino\libraries ```
+         
+   </td></tr></table><br>
+
+5. Ubah ``` Nama WiFi ```, ``` Kata Sandi WiFi ```, dan sebagainya sesuai dengan apa yang anda gunakan saat ini.<br><br>
+
+6. Sebelum mengunggah program, silakan klik: ``` Verify ```.<br><br>
+
+7. Jika tidak ada kesalahan dalam kode program, silakan ``` Export Binary ``` di Arduino IDE :
+
+   <table><tr><td width="810">
+
+      Klik ``` Sketch ``` -> ``` Export compiled Binary ```
+         
+   </td></tr></table><br>
+    
+8. Tunggu hingga proses selesai, file binary (.bin) yang dihasilkan kemudian siap digunakan untuk proses OTA.
+
+<br><br>
+
 ## Memulai
 1. Unduh dan ekstrak repositori ini.<br><br>
    
