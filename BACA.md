@@ -168,7 +168,9 @@ Sistem pemantauan, pengendalian, dan pengelolaan firmware IoT berbasis web — m
 
    <table><tr><td width="810">
       
-      ``` LED_Blink_OTA.ino ``` dan ``` Monitoring_Controlling_Device_OTA.ino ```
+      • ``` LED_Blink_OTA.ino ```
+
+      • ``` Monitoring_Controlling_Device_OTA.ino ```
          
    </td></tr></table><br>
    
@@ -211,17 +213,32 @@ Sistem pemantauan, pengendalian, dan pengelolaan firmware IoT berbasis web — m
 
 5. Ubah ``` Nama WiFi ```, ``` Kata Sandi WiFi ```, dan sebagainya sesuai dengan apa yang anda gunakan saat ini.<br><br>
 
-6. Sebelum mengunggah program, silakan klik: ``` Verify ```.<br><br>
+6. Selanjutnya, pilih ``` Sketch ``` -> ``` Export compiled Binary ```.<br><br>
+    
+7. Tunggu hingga proses selesai, file Biner (.bin) yang dihasilkan kemudian siap digunakan untuk proses OTA.
 
-7. Jika tidak ada kesalahan dalam kode program, silakan ``` Export Binary ``` di Arduino IDE :
+<br><br>
+
+## Pengaturan Pembaruan Firmware Over-The-Air (FOTA)
+1. Silakan login terlebih dahulu melalui ``` Local Web Server ```.
+
+   <table><tr><td width="810">
+      
+      • Username: ``` admin ```
+
+      • Password: ``` admin ```
+         
+   </td></tr></table><br>
+   
+2. Unggah file biner (.bin) secara bergantian untuk mengetahui perbedaan pada setiap versi pembaruan firmware.
 
    <table><tr><td width="810">
 
-      Klik ``` Sketch ``` -> ``` Export compiled Binary ```
+      • ``` LED_Blink_OTA.bin ```
+
+      • ``` Monitoring_Controlling_Device_OTA.bin ```
          
-   </td></tr></table><br>
-    
-8. Tunggu hingga proses selesai, file binary (.bin) yang dihasilkan kemudian siap digunakan untuk proses OTA.
+   </td></tr></table>
 
 <br><br>
 
