@@ -73,7 +73,7 @@ Web-based IoT monitoring, control, and firmware management system — monitors t
 
 <br><br>
 
-## Arduino IDE Setup for Firmware Initialization
+## Arduino IDE Setup for Firmware Init
 1. Open the ``` Arduino IDE ``` first, then open the project by clicking ``` File ``` -> ``` Open ``` :
 
    <table><tr><td width="810">
@@ -163,7 +163,7 @@ Web-based IoT monitoring, control, and firmware management system — monitors t
 
 <br><br>
 
-## Arduino IDE Setup to Binary Compilation
+## Arduino IDE Setup for Binary Compilation
 1. Open the ``` Arduino IDE ``` first, then open the project by clicking ``` File ``` -> ``` Open ``` :
 
    <table><tr><td width="810">
