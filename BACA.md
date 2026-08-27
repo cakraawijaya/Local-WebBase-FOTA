@@ -306,6 +306,9 @@ Sistem pemantauan, pengendalian, dan pengelolaan firmware IoT berbasis web — m
 </tr>
 </table>
 
+<br>
+<strong>Informasi lebih lanjut:</strong> <a href="https://github.com/cakraawijaya/Local-WebBase-FOTA/blob/master/Assets/Documentation/Report/Portofolio%20Pelatihan%20Sertifikasi%20BNSP%20IIoT%20-%20Devan%20Cakra%20Mudra%20Wijaya-36-48.pdf"><u>Klik Disini</u></a>
+
 <br><br>
 
 ## Apresiasi
