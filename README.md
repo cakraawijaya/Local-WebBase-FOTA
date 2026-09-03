@@ -18,7 +18,7 @@ Web-based IoT monitoring, control, and firmware management system — monitors t
 | Communications Protocol | Hypertext Transfer Protocol (HTTP) |
 | IoT Architecture | 3 Layer |
 | Programming Language | C/C++ |
-| Arduino Library | • WiFi (default)<br>• DHT sensor library by Adafruit (Version: 1.4.6)<br>• Arduino_ESP32_OTA by Arduino (Version: 0.3.1)<br>• NTPClient by Fabrice Weinberg (Version: 3.2.1)<br>• WiFiManager by tablatronix (Version: 2.0.17)<br>• WiFiWebServer by Khoi Hoang (Version: 1.10.1) |
+| Arduino Library | • WiFi (default)<br>• WiFiClient (default)<br>• WebServer (default)<br>• ESPmDNS (default)<br>• Update (default)<br>• WiFiUdp (default)<br>• DHT sensor library by Adafruit (Version: 1.4.6)<br>• NTPClient by Fabrice Weinberg (Version: 3.2.1) |
 | Actuators | • LED (x1)<br>• Electromechanical relay 2-channel (x1) |
 | Sensor | DHT11: Air Temperature & Humidity (x1) |
 | Other Components | • Micro USB cable - USB type A (x1)<br>• ESP32 expansion board (x1)<br>• Breadboard (x1)<br>• Adaptor DC 9V 1A (x1)<br>• Resistor 220 ohm (x1)<br>• Jumper cable (1 set) |
