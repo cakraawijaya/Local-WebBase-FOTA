@@ -21,7 +21,7 @@ Sistem pemantauan, pengendalian, dan pengelolaan firmware IoT berbasis web — m
 | Pustaka Arduino | • WiFi (bawaan)<br>• WiFiClient (bawaan)<br>• WebServer (bawaan)<br>• ESPmDNS (bawaan)<br>• Update (bawaan)<br>• WiFiUdp (bawaan)<br>• DHT sensor library oleh Adafruit (Versi: 1.4.6)<br>• NTPClient oleh Fabrice Weinberg (Versi: 3.2.1) |
 | Aktuator | • LED (x1)<br>• Relay elektromekanis 2-channel (x1) |
 | Sensor | DHT11: Suhu & Kelembapan Udara (x1) |
-| Komponen Lainnya| • Kabel USB Mikro - USB tipe A (x1)<br>• Papan ekspansi ESP32 (x1)<br>• Breadboard (x1)<br>• Adaptor DC 9V 1A (x1)<br>• Resistor 220 ohm (x1)<br>• Kabel jumper (1 set)<br>• PCB Dot Matrix Single Layer (x1)<br>• Terminal PCB block screw (x2)<br>• Box Proyek X5 (x1)<br>• Sekrup (x4)<br>• Baut M3 x 12 (x10)<br>• Baut M4 x 10 (x2)<br>• Mur M3 (x12)<br>• Mur M4 (x2) |
+| Komponen Lainnya| • Kabel USB Mikro - USB tipe A (x1)<br>• Papan ekspansi DOIT ESP32 DEVKIT V1 (x1)<br>• Breadboard (x1)<br>• Adaptor DC 9V 1A (x1)<br>• Resistor 220 ohm (x1)<br>• Kabel jumper (1 set)<br>• PCB Dot Matrix Single Layer (x1)<br>• Terminal PCB block screw (x2)<br>• Box Proyek X5 (x1)<br>• Sekrup (x4)<br>• Baut M3 x 12 (x10)<br>• Baut M4 x 10 (x2)<br>• Mur M3 (x12)<br>• Mur M4 (x2) |
 
 <br><br>
 
