@@ -21,7 +21,7 @@ Web-based IoT monitoring, control, and firmware management system — monitors t
 | Arduino Library | • WiFi (default)<br>• WiFiClient (default)<br>• WebServer (default)<br>• ESPmDNS (default)<br>• Update (default)<br>• WiFiUdp (default)<br>• DHT sensor library by Adafruit (Version: 1.4.6)<br>• NTPClient by Fabrice Weinberg (Version: 3.2.1) |
 | Actuators | • LED (x1)<br>• Electromechanical relay 2-channel (x1) |
 | Sensor | DHT11: Air Temperature & Humidity (x1) |
-| Other Components | • Micro USB cable - USB type A (x1)<br>• ESP32 expansion board (x1)<br>• Breadboard (x1)<br>• Adaptor DC 9V 1A (x1)<br>• Resistor 220 ohm (x1)<br>• Jumper cable (1 set)<br>• PCB Dot Matrix Single Layer (x1)<br>• Terminal PCB block screw (x2)<br>• Project Box X5 (x1)<br>• Screws (x4)<br>• Bolts M3 x 12 (x10)<br>• Bolts M4 x 10 (x2)<br>• Nuts M3 (x12)<br>• Nuts M4 (x2) |
+| Other Components | • Micro USB cable - USB type A (x1)<br>• DOIT ESP32 DEVKIT V1 expansion board (x1)<br>• Breadboard (x1)<br>• Adaptor DC 9V 1A (x1)<br>• Resistor 220 ohm (x1)<br>• Jumper cable (1 set)<br>• PCB Dot Matrix Single Layer (x1)<br>• Terminal PCB block screw (x2)<br>• Project Box X5 (x1)<br>• Screws (x4)<br>• Bolts M3 x 12 (x10)<br>• Bolts M4 x 10 (x2)<br>• Nuts M3 (x12)<br>• Nuts M4 (x2) |
 
 <br><br>
 
