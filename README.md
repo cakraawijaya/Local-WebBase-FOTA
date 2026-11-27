@@ -259,7 +259,7 @@ Web-based IoT monitoring, control, and firmware management system — monitors t
 
 <table>
 <tr>
-<th width="840" colspan="2">Perangkat dengan Casing</th>
+<th width="840" colspan="2">Enclosed Device</th>
 </tr>
 <tr>
 <td width="420" align="center"><img src="Assets/Documentation/Experiment/Cover/Device-1.jpg" alt="device-1"></td>
